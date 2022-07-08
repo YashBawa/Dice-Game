@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dicee</title>
+</head>
+<link rel="stylesheet" href="style.css">
+<link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+  />
+<body>
+    <h1>Lets Get Started!!</h1>
+    
+    <div class = "container">
+        
+        <div class="first_player"></divclass>
+            <p class ="players" id="player_1">player_1</p>
+            <img class = "image_1" src="images/dice1.png" alt="dice1">
+        </div>
+
+        <div class ="Second_player">
+            <p class="players" id="player_2">Computer</p> 
+            <img class="image_2" src="images/dice1.png" alt="dice2">
+        </div>
+        
+    </div>
+    <button class ="buttons_for_playing" id="button_1" onclick="play()">Play</button>
+    <button class="button_for_resultant" id="button_2" onclick="win_lose()">Win/lose </button>
+    <br>
+    <button class="button_for_ending" id="button_3" onclick="restart_game()">Restart</button>
+    <script src="script.js"></script>
+    
+</body>
+<footer> 
+    -Developed by Yash Bawa <a href="https://github.com/YashBawa"><i class="fa fa-github"></i></a>
+    
+</footer>
+</html>
