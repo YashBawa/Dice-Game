@@ -5,5 +5,5 @@ This game is made using pure HTML , CSS and JS . This is a fun refreshing game d
 are used in javascript to bring the best outcome for the dice rolling game . 
 
 The link for the website is : - 
-
+https://yashbawa.github.io/Dice-Game/
 Do visit the above link and give yourself an amazing chance to refresh your childhood memories using my Dice Game Website . 
